@@ -5,7 +5,11 @@ import { useState, useEffect } from "react";
 
 const HeroVideo = dynamic(() => import('@/components/ui/heroVideo'), {
   ssr: false, 
-  loading: () => <div className="h-full w-full">
+  loading: () => <div style={{
+    position:"relative",
+    width:"100%",
+    height:"100%"
+  }}>
     <Image style={{
       // position:"relative",
       objectFit:"cover",

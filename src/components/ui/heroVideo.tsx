@@ -8,7 +8,7 @@ const HeroVideo = () => {
             autoPlay
             playsInline
             preload="none"
-            // poster="/assets/vids/1920/video-1-1920.jpg"
+            poster="/hero.png"
           >
             <source src={"/assets/vids/heroBg.mp4"} type="video/webm" />
           </video>
