@@ -1,10 +1,19 @@
 "use client";
 import dynamic from "next/dynamic";
+import Image from "next/image";
 import { useState, useEffect } from "react";  
 
 const HeroVideo = dynamic(() => import('@/components/ui/heroVideo'), {
   ssr: false, 
-  loading: () => <div className="h-full w-full"></div>,
+  loading: () => <div className="h-full w-full">
+    <Image style={{
+      // position:"relative",
+      objectFit:"cover",
+      width:"100%",
+      height:"100%"
+
+    }} fill src="/hero.png" alt="Logo" />
+  </div>,
 });
 
 const Hero = () => {
@@ -22,7 +31,9 @@ const Hero = () => {
     >
       {/* Begin page header video */}
       <div className="ph-video ph-video-grayscale ph-video-cover-1">
-        <div className="ph-video-inner ">
+        <div style={{
+          position:"relative"
+        }} className="ph-video-inner relative">
           <HeroVideo />
         </div>
       </div>
