@@ -88,7 +88,7 @@ const Hero = () => {
         <ul>
           <li>
             <a
-              href="https://www.instagram.com/elegant_trading_academy"
+              href="https://www.instagram.com/elegant.academy_?igsh=aDJ2NGRwOGE3ZXJm"
               className="tt-magnetic-item"
               target="_blank"
               rel="noopener noreferrer"
