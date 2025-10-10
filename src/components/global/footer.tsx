@@ -103,8 +103,6 @@ const Footer = () => {
                               <a
                                 href={socialItem.href}
                                 className="tt-magnetic-item"
-                                target="_blank"
-                                rel="noopener"
                               >
                                 <i
                                   className={`fa-brands ${socialItem.icon}`}
@@ -126,8 +124,8 @@ const Footer = () => {
             <div className="tt-footer-widget">
               <ul className="tt-footer-widget-list">
                 <li>
-                  <div className="tt-footer-logo md:ml-10">
-                    <a href="/" className="tt-magnetic-item">
+                  <div style={{pointerEvents:'none'}} className="tt-footer-logo md:ml-10">
+                    <a href="/">
                       <img
                         src="/logo-min.png"
                         style={{ scale: 2.5 ,filter:"grayscale(100%) brightness(10)"}}

@@ -9541,6 +9541,16 @@ body.is-mobile .tt-avlist-item:focus {
 		margin-top: 20px;
 		margin-left: -15px;
 	}
+	.tt-footer-logo img{
+		margin-left: 2rem;
+	}
+
+}
+
+@media (max-width:576px){
+	.tt-footer-logo img{
+		margin-left: 6rem;
+	}
 }
 
 /* Footer copyright */
