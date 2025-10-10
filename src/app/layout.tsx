@@ -64,7 +64,7 @@ export default function RootLayout({
           <Indexlayout>{children}</Indexlayout>
         </main>
         <Scripts />
-      </body>Screenshot 2025-10-06 141113.png
+      </body>
     </html>
   );
 }
