@@ -53,7 +53,7 @@ const Hero = () => {
               CONFIDENCE
             </h1>
             <div className="ph-caption-description max-width-700">
-              Bangalore’s Trusted Trading Hub
+              Bangalore’s Trusted Trading Hub &nbsp;
               <br />
               Elegant Trading Academy helps you master the art of trading.
             </div>
