@@ -28,7 +28,7 @@ const footerData = [
           <>
             {/* +91 7736859513 */}
             {/* <br />  */}
-             Bangalore | Online
+            Bangalore, Karnataka, India | Online
           </>
         ),
         href: "",
