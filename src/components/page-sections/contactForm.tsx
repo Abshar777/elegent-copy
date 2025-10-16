@@ -97,7 +97,7 @@ const ContactForm = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Bangalore, Tamil Nadu, India | Online
+                        Bangalore, Karnataka, India | Online
                       </a>
                     </li>
                     <li>
