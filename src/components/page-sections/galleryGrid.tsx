@@ -199,7 +199,7 @@ const GalleryGrid: React.FC = () => {
                     >
                       <a className="pgi-image-wrap" data-cursor="View<br>">
                         <div
-                          className={`pgi-image-holder${
+                          className={`pgi-image-holder overflow-hidden  ${
                             !item.isLight ? " cover-opacity-2" : ""
                           }`}
                         >
