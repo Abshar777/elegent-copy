@@ -13,7 +13,7 @@ const Scripts = () => {
       [
         '/assets/vendor/gsap/ScrollToPlugin.min.js',
         '/assets/vendor/gsap/ScrollTrigger.min.js',
-        '/assets/vendor/lenis.js',
+        '/assets/vendor/lenis.min.js',
       ],
       // ✅ Utility scripts
       [

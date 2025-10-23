@@ -4,11 +4,11 @@ import { Big_Shoulders_Display, Poppins } from "next/font/google";
 import Heade from "@/components/layout/heade";
 import Scripts from "@/components/layout/scripts";
 import Indexlayout from "@/components/layout";
-import "@/../public/assets/vendor/fontawesome/css/all.min.css";
-import "@/../public/assets/vendor/swiper/css/swiper-bundle.min.css";
-import "@/../public/assets/css/helper.css";
-import "@/../public/assets/css/theme.css";
-import "@/../public/assets/css/theme-light.css";
+// import "@/../public/assets/vendor/fontawesome/css/all.min.css";
+// import "@/../public/assets/vendor/swiper/css/swiper-bundle.min.css";
+// import "@/../public/assets/css/helper.css";
+// import "@/../public/assets/css/theme.css";
+// import "@/../public/assets/css/theme-light.css";
 
 const bigShouldersDisplay = Big_Shoulders_Display({
   subsets: ["latin"],
